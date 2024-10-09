@@ -15,15 +15,15 @@ public class Calc
         String op = sc.next();
         switch(op)
         {
-            case "multiply": multiply(a,b); break;
+            case "divide": divide(a,b); break;
             default: System.out.println("Invalid operation"); break;
 
         }
 
     }
-    public static void multiply(int a, int b)
+    public static void divide(int a, int b)
     {
-        int sum = a * b;
+        int sum = a / b;
         System.out.println("The sum is: " + sum);
     }
 }
